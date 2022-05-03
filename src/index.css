@@ -1,7 +1,12 @@
 body {
+  align-items: center;
   background: #e8c0d2;
   box-sizing: border-box;
+  display: flex;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  height: 100vh;
+  justify-content: center;
+
 
 }
 * {
