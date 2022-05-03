@@ -1,8 +1,7 @@
 export const WATCH_FORMAT = {
-  TIMEZONE: 'TIMEZONE',
-  FUTURE_YEAR: 'FUTURE_YEAR',
-  PAST_YEAR: 'PAST_YEAR',
-  LOCALTIME: 'PRESENT_TIME',
+  FUTURE_TIME: 'FUTURE_TIME',
+  PAST_TIME: 'PAST_TIME',
+  PRESENT_TIME: 'PRESENT_TIME',
 };
 
 export const TIMEZONE_OPTIONS = [
@@ -57,4 +56,13 @@ export const TIMEZONE_OPTIONS = [
   'Indian/Reunion',
   'Europe/Amsterdam',
   'Europe/Berlin',
+];
+
+export const YEARS = [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
 ];
